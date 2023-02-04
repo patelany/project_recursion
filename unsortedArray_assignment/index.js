@@ -1,5 +1,3 @@
-
-//ask user to enter unsorted array 
 var array = prompt("Enter your numbers").split(",");
 
 //recursive mergeSort function to return sorted array 
@@ -51,5 +49,8 @@ const merge = (leftArray, rightArray) => {
 
 
 console.log(mergeSort(array));
+
+
+
 
 
